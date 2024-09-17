@@ -1,0 +1,160 @@
+/* General Styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
+
+header nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+header nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Hero Section */
+.hero {
+    background-color: #e0f7fa;
+    padding: 50px;
+    text-align: center;
+}
+
+.hero img {
+    width: 100%;
+    height: auto;
+    max-height: 400px;
+}
+
+.hero h2 {
+    font-size: 36px;
+    color: #333;
+}
+
+.hero p {
+    font-size: 18px;
+    color: #666;
+}
+
+/* About Us Section */
+.about {
+    padding: 30px;
+    text-align: center;
+}
+
+.about img {
+    width: 100%;
+    height: auto;
+    max-height: 300px;
+    margin-top: 20px;
+}
+
+/* Rooms Section */
+.rooms {
+    background-color: #f1f1f1;
+    padding: 30px;
+    text-align: center;
+}
+
+.room-gallery {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.room-gallery img {
+    width: 30%;
+    height: auto;
+}
+
+/* Services Section */
+.services {
+    padding: 30px;
+    background-color: #fff;
+    text-align: center;
+}
+
+.services ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.services ul li {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+/* Contact Section */
+.contact {
+    background-color: #f1f1f1;
+    padding: 30px;
+    text-align: center;
+}
+
+.contact form {
+    display: inline-block;
+    text-align: left;
+    margin-top: 20px;
+}
+
+.contact label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.contact input[type="text"],
+.contact input[type="email"],
+.contact textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.contact input[type="submit"] {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.contact input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+/* Footer Section */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
